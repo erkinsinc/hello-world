@@ -15,4 +15,4 @@ RUN pip install -r /app/requirements.txt
 EXPOSE 5000
 
 ## When container is started puthon app.py
-CMD ["/bin/sh", "-c", "python /app/app/py"]
+CMD ["/bin/sh", "-c", "python /app/app.py"]
